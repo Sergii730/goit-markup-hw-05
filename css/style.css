@@ -602,8 +602,11 @@ button {
   border: none;
 }
 
-.modal-icon:hover,
-.modal-icon:focus {
+.modal-button:hover .modal-icon {
+  fill: #fff;
+}
+
+.modal-button:focus .modal-icon {
   fill: #fff;
 }
 
